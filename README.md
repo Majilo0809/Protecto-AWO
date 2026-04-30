@@ -1,43 +1,39 @@
-Perfecto, aquí tienes un **README listo para GitHub**, limpio, profesional y con formato Markdown bien estructurado (cópialo tal cual en `README.md`):
 
----
-
-````md
-# 🚀 AWO - Lenguaje de Programación
+# AWO - Lenguaje de Programación
 
 AWO es un lenguaje de programación interpretado desarrollado en Python usando ANTLR4.  
 Permite ejecutar programas con variables, funciones, estructuras de control y librerías externas como **mate** y **paint**.
 
 ---
 
-# 📌 Características del lenguaje
+#  Características del lenguaje
 
-- ✔ Variables
-- ✔ Operaciones matemáticas básicas
-- ✔ Funciones con return
-- ✔ Condicionales (`if / else`)
-- ✔ Ciclos (`while`)
-- ✔ Importación de librerías
-- ✔ Sistema de memoria con scopes
-- ✔ Evaluación de expresiones
-- ✔ Librerías externas (matemática y dibujo)
+-  Variables
+-  Operaciones matemáticas básicas
+-  Funciones con return
+-  Condicionales (`if / else`)
+-  Ciclos (`while`)
+-  Importación de librerías
+-  Sistema de memoria con scopes
+-  Evaluación de expresiones
+-  Librerías externas (matemática y dibujo)
 
 ---
 
-# ⚙️ Requisitos
+#  Requisitos
 
 - Python 3.10+
 - antlr4-python3-runtime
 
 Instalación:
 
-```bash
+```
 pip install antlr4-python3-runtime
 ````
 
 ---
 
-# 📁 Estructura del proyecto
+#  Estructura del proyecto
 
 ```
 AWO/
@@ -59,28 +55,28 @@ AWO/
 
 ---
 
-# ▶️ Cómo ejecutar
+#  Cómo ejecutar
 
 1. Escribe tu código en `programa.awo`
 2. Ejecuta el intérprete:
 
-```bash
+```
 python3 principal.py
 ```
 
 3. Ingresa el archivo:
 
-```bash
+```
 programa.awo
 ```
 
 ---
 
-# 🧠 Sintaxis del lenguaje
+#  Sintaxis del lenguaje
 
 ---
 
-## 🔹 Variables
+##  Variables
 
 ```awo
 x = 10
@@ -89,7 +85,7 @@ y = 20
 
 ---
 
-## 🔹 Operaciones básicas
+##  Operaciones básicas
 
 ```awo
 print(5 + 3)
@@ -100,7 +96,7 @@ print(8 / 2)
 
 ---
 
-## 🔹 Condicionales
+##  Condicionales
 
 ```awo
 if x > 5:
@@ -111,17 +107,16 @@ else:
 
 ---
 
-## 🔹 Ciclos
+##  Ciclos
 
 ```awo
 while x > 0:
     print(x)
     x = x - 1
 ```
-
 ---
 
-## 🔹 Funciones
+##  Funciones
 
 ```awo
 func suma(a, b):
@@ -132,11 +127,11 @@ print(suma(2, 3))
 
 ---
 
-# 📚 Librerías
+#  Librerías
 
 ---
 
-# 🧮 MATE (Matemáticas)
+#  MATE (Matemáticas)
 
 Funciones disponibles:
 
@@ -166,58 +161,33 @@ print(mate.exp(2))
 
 ---
 
-# 🎨 PAINT (Gráficos en consola)
-
-Funciones disponibles:
-
-```awo
-paint.figura(ancho, alto)
-paint.punto(x, y)
-paint.linea(x1, y1, x2, y2)
-paint.cuadricula()
-paint.titulo("texto")
-paint.renderizar()
-```
-
-Ejemplo:
-
-```awo
-import paint
-
-paint.figura(20, 10)
-paint.titulo("Demo")
-paint.punto(2, 3)
-paint.linea(0, 0, 10, 5)
-paint.renderizar()
-```
-
 ---
 
-# 🧠 Algoritmos implementados
+#  Algoritmos implementados
 
-## 📌 Euclides (MCD)
+##  Euclides (MCD)
 
 Algoritmo iterativo usando módulo `%`.
 
-## 📌 Factorial
+##  Factorial
 
 Multiplicación acumulativa desde 1 hasta n.
 
-## 📌 Potencia
+##  Potencia
 
 Multiplicación repetida.
 
-## 📌 Fibonacci
+##  Fibonacci
 
 Versión iterativa para evitar recursión infinita.
 
-## 📌 Serie de Taylor
+##  Serie de Taylor
 
 Aproximación de `e^x` mediante suma de términos.
 
 ---
 
-# 🧠 Diseño del intérprete
+#  Diseño del intérprete
 
 * Uso de **Visitor Pattern**
 * Evaluación de AST generado por ANTLR
@@ -227,7 +197,7 @@ Aproximación de `e^x` mediante suma de términos.
 
 ---
 
-# ⚠️ Notas importantes
+#  Notas importantes
 
 * No existe `for`, solo `while`
 * La indentación se maneja con `INDENT / DEDENT`
@@ -235,20 +205,9 @@ Aproximación de `e^x` mediante suma de términos.
 
 ---
 
-# 👨‍💻 Autor
+#  Autores
 
+AwoTeam
 Proyecto académico de Lenguajes de Programación
 Implementación de un intérprete completo en Python + ANTLR4
-
-```
-
----
-
-Si quieres, puedo ayudarte a hacer también:
-
-👉 README con badges bonitos (tipo GitHub pro)  
-👉 portada para tu repositorio  
-👉 o documentación tipo “nivel ingeniería de software”
-
-solo dime 👍
 ```
