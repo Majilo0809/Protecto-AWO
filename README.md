@@ -210,4 +210,3 @@ Aproximación de `e^x` mediante suma de términos.
 AwoTeam
 Proyecto académico de Lenguajes de Programación
 Implementación de un intérprete completo en Python + ANTLR4
-```
